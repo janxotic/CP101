@@ -1,0 +1,10 @@
+# Get user input
+number = float(input("Enter a number: "))
+
+# Check the number
+if number > 9:
+  print("The number is positive.")
+elif number < 9:
+  print("The number is negative.")
+else:
+  print("The Number Is Nine.")
