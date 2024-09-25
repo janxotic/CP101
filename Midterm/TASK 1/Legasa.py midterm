@@ -1,0 +1,25 @@
+def check_sign(number):
+  """
+  Checks the sign of a number and returns a string indicating whether it is positive, negative, or zero.
+
+  Args:
+    number: The number to check.
+
+  Returns:
+    A string indicating the sign of the number.
+  """
+  if number > 0:
+    return "Positive"
+  elif number < 0:
+    return "Negative"
+  else:
+    return "Zero"
+
+# Get input from the user
+number = float(input("Enter a number: "))
+
+# Check the sign of the number
+sign = check_sign(number)
+
+# Print the result
+print(f"The number {number} is {sign}.")
